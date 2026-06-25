@@ -1,5 +1,6 @@
 import { createSchema, createYoga } from "graphql-yoga";
 import { fixtures } from "../../data/fixtures";
+import { stadiums } from "@/app/data/stadiums";
 
 const schema = createSchema({
   typeDefs: `
@@ -12,15 +13,27 @@ const schema = createSchema({
       result: String
     }
 
+    type Stadium {
+     id: ID!
+     name: String!
+     club: String!
+     city: String!
+     capacity: Int!
+     surface: String!
+     funFact: String! 
+    }
+
     type Query {
       hello: String
       fixtures: [Fixture!]!
+      stadiums: [Stadium!]!
     }
   `,
   resolvers: {
     Query: {
       hello: () => "Welcome to Chelsea Matchday Intelligence!",
       fixtures: () => fixtures,
+      stadiums: () => stadiums
     },
   },
 });
