@@ -9,6 +9,7 @@ export default function Navbar(){
                 <Link href="/" className="hover:text-blue-300 transition-colors">Home</Link>
                 <Link href="/analyst" className="hover:text-blue-300 transition-colors">Analyst</Link>
                 <Link href="/stadiums" className="hover:text-blue-300 transition-colors">Stadiums</Link>
+                <Link href="/tactical" className="hover:text-blue-300 transition-colors">Tactical</Link>
             </div>
         </nav>
     )
