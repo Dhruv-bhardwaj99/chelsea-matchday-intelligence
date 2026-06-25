@@ -1,0 +1,42 @@
+export const fixtures = [
+  {
+    id: "1",
+    opponent: "Manchester City",
+    date: "2025-08-16",
+    venue: "Stamford Bridge",
+    competition: "Premier League",
+    result: null,
+  },
+  {
+    id: "2",
+    opponent: "Arsenal",
+    date: "2025-08-23",
+    venue: "Emirates Stadium",
+    competition: "Premier League",
+    result: null,
+  },
+  {
+    id: "3",
+    opponent: "Liverpool",
+    date: "2025-08-30",
+    venue: "Stamford Bridge",
+    competition: "Premier League",
+    result: null,
+  },
+  {
+    id: "4",
+    opponent: "Tottenham Hotspur",
+    date: "2025-09-13",
+    venue: "Tottenham Hotspur Stadium",
+    competition: "Premier League",
+    result: null,
+  },
+  {
+    id: "5",
+    opponent: "Manchester United",
+    date: "2025-09-20",
+    venue: "Old Trafford",
+    competition: "Premier League",
+    result: null,
+  },
+];
